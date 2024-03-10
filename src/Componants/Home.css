@@ -1,0 +1,205 @@
+#HomeMainDiv{
+    width: 100%;
+    height: 90.5rem; 
+  }
+
+  #Home_Sub_Div{
+    border: 1px solid rgb(244, 241, 241);
+    width: 100%;
+    height: 91%;
+    background: rgb(152,145,211) 0% 0% no-repeat padding-box;
+    background-image: url("../Images/woman-in-blue-crew-neck-shirt-using-black-laptop-computer-3994051.png");
+    opacity: 0.80;
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+  } 
+
+  #Home_content{
+
+    width: 90%;
+    height: 50%;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    display: flex;
+  }
+
+.Home_Content_Sub_div{
+
+  width: 50%;
+  height: 100%;
+}  
+
+/* Video on Home Page */
+
+#Video_Box{
+  
+  width: 92%;
+  height: 92%;
+  margin: 30px;
+  border-radius: 20px;
+}
+#Video_Box > video{
+  
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.Home_Content_Sub_div > p{
+  font-size: 30px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(234, 238, 222);
+  line-height: 45px;
+  margin-top: 3%;
+  margin-left: 50px;
+}  
+
+.Home_Content_Sub_div > h1{
+  font-size: 60px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    line-height: 65px;
+    color: white;
+}
+.Home_Content_Sub_div > div{
+
+  width: 70%;
+  height: 15%;
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+
+}
+.Home_Content_Sub_div > div > button{
+
+  width: 35%;
+  height: 100%;
+  background-color: yellow;
+  border-radius: 40px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(50, 50, 50);
+  border: none;
+  font-weight: bold;
+
+}
+
+.Home_Content_Sub_div > div > a{
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 25px;
+
+}
+.Home_Content_Sub_div > div > a:hover{
+  text-decoration: none;
+  color: rgb(213, 229, 36);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 25px;
+
+}
+
+#MainNavabrDiv{
+ 
+  width: 85%;
+  margin-top: 3rem;
+  margin-left: 12rem;
+height: 8%;
+display: flex;
+}  
+
+#LeftNavbar{
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+#RightNavbar{
+  width: 50%;
+  height: 100%;
+ 
+  display: flex;
+}
+#LeftNavbar > div{
+  width: 10%;
+  height: 100%;
+ 
+}
+
+#LeftNavbar > div > img{
+  width: 100%;
+  height: 100%;
+
+}
+#LeftNavbar > h1{
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-left: 20px;
+
+}
+.right_div_Navbar{
+
+  width: 20%;
+  height: 80%;
+  padding-top: 20px;
+  
+}
+.right_div_Navbar > a{
+  text-decoration: none;
+  text-align: center;
+  color: rgb(243, 240, 237);
+  font-size: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 30px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.right_div_Navbar > a:hover{
+  text-decoration: none;
+  text-align: center;
+  color: rgba(238, 238, 143, 0.964);
+  font-size: 33px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 30px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.right_div_Contact{
+
+  width: 20%;
+  height: 65%;
+  padding-top: 20px;
+  border-radius: 35px;
+  background-color: yellow;
+}
+.right_div_Contact > a{
+  text-decoration: none;
+  text-align: center;
+  color: rgb(44, 43, 43);
+  font-size: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
